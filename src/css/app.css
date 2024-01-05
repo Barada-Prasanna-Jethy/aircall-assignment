@@ -1,0 +1,101 @@
+#app {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+#app .container {
+  width: 376px;
+  height: 666px;
+  z-index: 100;
+
+  background: white;
+  border-radius: 3px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.9);
+}
+
+#app .container-view {
+  padding: 20px;
+}
+
+.tabContainer {
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+  margin-bottom: 10px;
+  padding: 0 15px;
+  color: #9a9a9a;
+  font-weight: bold;
+}
+
+.listBody {
+  height: 582px;
+  background-color: #fdfdfc;
+}
+
+.callDetailsCard {
+  display: flex;
+  background: white;
+  border-radius: 5px;
+  border: 1px solid #f1f1f0;
+  padding: 10px 20px;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.callDate {
+  display: flex;
+  justify-content: center;
+  color: #bbbbbb;
+}
+
+.callList {
+  overflow-y: scroll;
+  height: 492px;
+}
+
+.archiveButton {
+  height: 40px;
+  margin: 5px 0;
+  width: 100%;
+  background-color: #fdfdfd;
+  border-radius: 5px;
+  border: 1px solid #f1f1f0;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+.callListContainer {
+  margin: 0 15px;
+}
+
+.activeTab {
+  border-bottom: 2px solid #fb6a40;
+  color: black;
+}
+
+.callTime {
+  margin-left: auto;
+  color: #bbbbbb;
+}
+
+.fromTo {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.receiver {
+  color: #bbbbbb;
+  margin-top: 5px;
+  font-weight: normal;
+}
+
+.bi-archive-fill {
+  margin-right: 10px;
+}
